@@ -35,33 +35,3 @@ bool coplanar(Vector3 p, Vector3 q, Vector3 r, Vector3 s) {
     }
     
 }
-
-
-const int numVertices=6;
-const float vertices[numVertices][3] = {{200,0,0},{400,300,0},{200,400,0},{200,400,0},{0,300,0},{200,0,0}};
-glBegin(GL_TRIANGLES);
-glVertex3fv(vertices[0]);
-glVertex3fv(vertices[1]);
-glVertex3fv(vertices[2]);
-glVertex3fv(vertices[3]);
-glVertex3fv(vertices[4]);
-glVertex3fv(vertices[5]);
-glEnd();
-
- 
-
-Instead of glVertex3d(), use CRVertex3d()
-
-Instead of glColor3d(), use CRColor3d()
-
-
-glBegin(GL_TRIANGLES);
- 
-glVertex3d(20.0, 0.0, 0.0);
-glVertex3d(40.0, 30.0, 0.0);
-glVertex3d(20.0, 40.0, 0.0);
-glVertex3d(20.0, 40.0, 0.0);
-glVertex3d(0.0, 30.0, 0.0);
-glVertex3d(20.0, 0.0, 0.0);
-
-glEnd();
