@@ -6,3 +6,5 @@ This assignment will require you to use what we have studied in the image proces
 
 You will receive 10 marks for solving the QR code detection problem, and there will be an additional component for 5 marks, where you will extend upon the QR code detection, and write a short reflective report about your extension.
 
+_NOTE: I used Jupyter Notebook to complete the assignment (hence a notebook file), but I submitted a Python file_
+
